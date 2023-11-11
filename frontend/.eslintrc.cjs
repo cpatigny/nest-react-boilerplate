@@ -5,7 +5,6 @@ module.exports = {
     'eslint:recommended',
     'plugin:@typescript-eslint/recommended',
     'plugin:react-hooks/recommended',
-    'plugin:unicorn/recommended',
     'plugin:sonarjs/recommended',
     'plugin:jsx-a11y/recommended',
   ],
@@ -17,6 +16,5 @@ module.exports = {
       'warn',
       { allowConstantExport: true },
     ],
-    'unicorn/filename-case': 'off',
   },
 }
