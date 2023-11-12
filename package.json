@@ -1,0 +1,20 @@
+{
+  "name": "nest-react-boilerplate",
+  "version": "1.0.0",
+  "description": "A simple Nest and React boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cpatigny/nest-react-boilerplate.git"
+  },
+  "author": "cpatigny",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cpatigny/nest-react-boilerplate/issues"
+  },
+  "homepage": "https://github.com/cpatigny/nest-react-boilerplate#readme",
+  "workspaces": ["frontend", "backend"]
+}
