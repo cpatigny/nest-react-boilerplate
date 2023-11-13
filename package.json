@@ -18,5 +18,9 @@
     "url": "https://github.com/cpatigny/nest-react-boilerplate/issues"
   },
   "homepage": "https://github.com/cpatigny/nest-react-boilerplate#readme",
-  "workspaces": ["client", "server"]
+  "workspaces": [
+    "client",
+    "server"
+  ],
+  "packageManager": "yarn@4.0.1"
 }
