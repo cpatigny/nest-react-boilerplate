@@ -2,9 +2,12 @@
   "name": "nest-react-boilerplate",
   "version": "1.0.0",
   "description": "A simple Nest and React boilerplate",
-  "main": "index.js",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:client": "yarn workspace @nest-react-boilerplate/client run dev",
+    "start:server": "yarn workspace @nest-react-boilerplate/server run start:dev",
+    "start:all": "yarn run start:client & yarn run start:server"
   },
   "repository": {
     "type": "git",
