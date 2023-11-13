@@ -7,7 +7,20 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start:client": "yarn workspace @nest-react-boilerplate/client run start:dev",
     "start:server": "yarn workspace @nest-react-boilerplate/server run start:dev",
-    "start:all": "yarn run start:client & yarn run start:server"
+    "start:all": "yarn run start:client & yarn run start:server",
+    "build:client": "yarn workspace @nest-react-boilerplate/client run build",
+    "build:server": "yarn workspace @nest-react-boilerplate/server run build",
+    "build:all": "yarn run build:client && yarn run build:server",
+    "test:client": "yarn workspace @nest-react-boilerplate/client run test",
+    "test:server": "yarn workspace @nest-react-boilerplate/server run test",
+    "test:all": "yarn run test:client && yarn run test:server",
+    "lint:client": "yarn workspace @nest-react-boilerplate/client run lint",
+    "lint:server": "yarn workspace @nest-react-boilerplate/server run lint",
+    "lint:all": "yarn run lint:client && yarn run lint:server",
+    "tsc:client": "yarn workspace @nest-react-boilerplate/client run tsc",
+    "tsc:server": "yarn workspace @nest-react-boilerplate/server run tsc",
+    "tsc:all": "yarn run tsc:client && yarn run tsc:server",
+    "postinstall": "husky install"
   },
   "repository": {
     "type": "git",
@@ -26,6 +39,7 @@
   "packageManager": "yarn@4.0.1",
   "devDependencies": {
     "eslint": "^8.53.0",
+    "husky": "^8.0.0",
     "prettier": "3.1.0",
     "typescript": "^5.2.2"
   },
