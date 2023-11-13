@@ -20,6 +20,9 @@
     "tsc:client": "yarn workspace @nest-react-boilerplate/client run tsc",
     "tsc:server": "yarn workspace @nest-react-boilerplate/server run tsc",
     "tsc:all": "yarn run tsc:client && yarn run tsc:server",
+    "format:client": "yarn workspace @nest-react-boilerplate/client run format",
+    "format:server": "yarn workspace @nest-react-boilerplate/server run format",
+    "format:all": "yarn run format:client && yarn run format:server",
     "postinstall": "husky install"
   },
   "repository": {

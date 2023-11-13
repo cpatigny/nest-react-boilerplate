@@ -1,4 +1,4 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
-yarn lint:all && yarn tsc:all
+yarn run lint:all && yarn run tsc:all && yarn run format:all
